@@ -1,0 +1,13 @@
+#Run Server
+cd Server
+python server.py
+
+#Run Client
+cd Client
+#有一个接口只有python3.4 有，可以自己查查python2.7中一个如何实现
+python3 client.py
+
+#Tips
+#证书由Server生成发给Client的过程是用cp完成的，需要修改为通过socket传输完成。
+#client登陆只是内部指定了一个用户名(test),最好能修改为进行密码认证，在为client生成证书
+#整体代码需要优化
