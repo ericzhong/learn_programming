@@ -4,6 +4,10 @@ body {
 }
 
 
+.container {
+    width: 1000px;
+}
+
 .content {
     padding-top: 20px;
 }
