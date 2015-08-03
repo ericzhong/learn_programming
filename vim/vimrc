@@ -1,5 +1,14 @@
 
+; switch buffer without save
 set hidden
 
 syntax enable
 syntax on
+
+; tabstop
+set ts=4
+set expandtab
+
+; number
+set nu
+
