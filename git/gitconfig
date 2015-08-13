@@ -1,7 +1,9 @@
-[push]
-  default = current
-[color]
-  ui = auto
 [user]
 	name = Eric Zhong
 	email = ericiszhongwenjia@qq.com
+[push]
+    default = current
+[color]
+    ui = auto
+[core]
+    editor = vim
